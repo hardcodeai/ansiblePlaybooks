@@ -1,0 +1,11 @@
+---
+- name: Install mysql
+  become: yes
+  apt:
+    name: "{{ item }}"
+  with_items:
+    - mysql-server
+    - python-mysqldb
+
+- name: Start the MySQL service
+  action: service name=mysql state=started

@@ -1,0 +1,4 @@
+---
+ - name : MonboDb - Import Public Key
+   apt_key:
+         

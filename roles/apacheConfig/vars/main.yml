@@ -1,0 +1,4 @@
+---
+http_host: "arnab.com"
+http_conf: "arnab.com.conf"
+http_port: "80"
